@@ -1,5 +1,108 @@
+:root{
+    --haupt-color: #212121;
+    --secod-color: #757575;
+    --white-color: #FFFFFF;
+    --white-color-trans: rgba(255, 255, 255, 0.6);
+    --akcent-color: #2196F3;
+    --akcent-font: 'Raleway',sans-serif;
+}
 body {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'Raleway',
+    sans-serif;
+    color: #212121;
+}
+.list {
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+.logo{
+  font-family: var(--akcent-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: inherit;
+}
+.logo--akcent{
+    color: var(--akcent-color);
+}
+.nav-link:hover,
+.nav-link:focus,
+.contakt-header-link:hover,
+.contakt-header-link:focus, .activ{
+    color: var(--akcent-color);
+}
+.contakt-header-link{
+    color: var(--secod-color);
+}
 
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    letter-spacing: 0.06em;
+    line-height: 1.36;
+    color: #2196F3;
+    text-align: center;
+    text-transform: uppercase;
+}
+.hero-btn{
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    line-height: 1.87;
+    color: var(--white-color);
+    background-color: var(--akcent-color);
+    cursor: pointer;
+}
+.title{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+.properties-title{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    line-height: 1.14;
+}
+.properties-text{
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+    color: var(--secod-color);
+}
+.team-title{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    line-height: 1.18;
+}
+.team-text{
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    line-height: 1.18;
+    color: var(--secod-color);
+}
+.footer{
+    color: var(--white-color);
+    background-color: #c67676;
+}
+.addres-list .link{
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: var(--secod-color);
+    line-height: 1.71;
+}
+.link.link--akcent{
+    color: var(--white-color);
 }
