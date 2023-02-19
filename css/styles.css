@@ -4,6 +4,8 @@
     --white-color: #FFFFFF;
     --white-color-trans: rgba(255, 255, 255, 0.6);
     --akcent-color: #2196F3;
+    --backgroundcolor: #2F303A;
+     --section-color: #F5F4FA;
     --akcent-font: 'Raleway',sans-serif;
 }
 body {
@@ -79,6 +81,9 @@ body {
     line-height: 1.71;
     color: var(--secod-color);
 }
+.team{
+    background-color: var(--section-color);
+}
 .team-title{
     font-weight: 500;
     font-size: 16px;
@@ -95,7 +100,7 @@ body {
 }
 .footer{
     color: var(--white-color);
-    background-color: #c67676;
+    background-color: var(--backgroundcolor);
 }
 .addres-list .link{
     font-size: 14px;
