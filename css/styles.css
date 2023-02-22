@@ -75,6 +75,7 @@ body {
     color: var(--white-color);
     background-color: var(--akcent-color);
     cursor: pointer;
+    font-family: inherit;
 }
 /* ==============SECTION PROPERTIES=============== */
 .properties-title{
@@ -131,6 +132,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
+    font-family: inherit;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus{
