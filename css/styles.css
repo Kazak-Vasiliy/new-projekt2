@@ -53,7 +53,9 @@ body {
 .nav-link:hover,
 .nav-link:focus,
 .contakt-link:hover,
-.contakt-link:focus, .activ{
+.contakt-link:focus,
+.addres-list .link:hover,
+.addres-list .link:focus, .activ{
     color: var(--akcent-color);
 }
 /* ==============SECTION HERO============== */
