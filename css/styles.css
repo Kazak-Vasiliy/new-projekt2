@@ -98,7 +98,7 @@ body {
     background-color: var(--section-background);
 }
 .team-item{
-    background-color: inherit;
+    background-color: var(--white-color);
 }
 .team-title{
     font-weight: 500;
